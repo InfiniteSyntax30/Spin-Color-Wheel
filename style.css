@@ -14,11 +14,15 @@ body{
     justify-content: center;
     overflow: hidden;
 }
-h1{
+h1,p{
 
-    color: #ccc;
+    color: #fff;
     text-align: center;
 }
+p{
+    font-size: 18px;
+}
+
 header img{
     width: 30px;
     height: 30px;
@@ -88,7 +92,7 @@ header img{
 }
 .arrow{
     position: absolute;
-    top: 60px;
+    top: 14.5%;
     left: 50%;
     transform: translateX(-50%);
     color: #a2a2a2;
@@ -100,7 +104,7 @@ header img{
 }
 #spin{
     position: absolute;
-    top:45%;
+    top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
