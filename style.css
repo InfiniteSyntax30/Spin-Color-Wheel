@@ -33,9 +33,9 @@ header img{
 .container{
     margin: auto;
     background-color: #ccc;
-    width: 450px;
-    height: 450px;
-    border: 15px solid white;
+    width: 250px;
+    height: 250px;
+    border: 8px solid white;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
@@ -67,18 +67,18 @@ header img{
 }
 #spin{
     position: absolute;
-    top:45%;
+    top:31%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
     background-color: #e2e2e2;
     text-transform: uppercase;
-    border: 8px solid #fff;
+    border: 6px solid #fff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 10px;
     color: #908686;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     font-family: sans-serif;
     border-radius: 50%;
     cursor: pointer;
