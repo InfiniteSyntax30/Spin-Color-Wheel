@@ -9,23 +9,23 @@
 </head>
 <body>
     <header>
-       <h1> <img src="./assets/asa logo.png"> HUES & GROOVES </h1>
+       <h1> <img alt="asa" src="./assets/asa logo.png"> HUES & GROOVES </h1>
         <P>Spin to Pick a color</P>
     </header>
     
    <div class="bodyWheel">
-    <button id="spin">Spin</button>
-    <span class="arrow"></span>
-    <div class="container">
-        <div class="one">1</div>
-        <div class="two">2</div>
-        <div class="three">3</div>
-        <div class="four">4</div>
-        <div class="five">5</div>
-        <div class="negOne">2</div>
-        <div class="negTwo">3</div>
-        <div class="negThree">4</div>
+    
+    <div class="container"> 
     </div>
+    <button id="spin">Spin</button>
+   </div>
+    <span class="arrow"></span>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="close-btn">&times;</span>
+            <p id="popup-text"></p>
+        </div>      
    </div>
    
    <script src="app.js"></script>
