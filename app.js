@@ -20,6 +20,10 @@ let hasSpun = localStorage.getItem("hasSpun") === "true";
 document.addEventListener("DOMContentLoaded", () => {
     if (hasSpun) {
         btn.disabled = false; // Keep button enabled but block spin
+
+        popupText.textContent = "You don get color, rest! 😂";
+        popup.style.display = "block";
+        return;
     }
 });
 
