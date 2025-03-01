@@ -35,7 +35,7 @@ header img{
     background-color: #ccc;
     width: 250px;
     height: 250px;
-    border: 8px solid white;
+    border: 8px solid #a0a0a0;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
@@ -43,9 +43,9 @@ header img{
     background: conic-gradient(
         #3f51b5 0deg 72deg,   /* Blue */
         #ff9800 72deg 144deg, /* Orange */
-        #cf0e8c 144deg 216deg, /* Purple */
-        #0aa049 216deg 288deg, /* Green */
-        #ff001e 288deg 360deg  /* Red */
+        #fff5e1 144deg 216deg, /* Purple */
+        #cf0e8c 216deg 288deg, /* Green */
+        #ffffff 288deg 360deg  /* Red */
     );
     transition: transform 3s ease-out;
     display: flex;
@@ -54,7 +54,7 @@ header img{
 }
 .arrow {
     position: absolute;
-    top: 13.5%;
+    top: 12.5%;
     left: 50%;
     transform: translateX(-50%);
     color: #a2a2a2;
@@ -62,8 +62,10 @@ header img{
     z-index: 10;
 }
 .arrow::before{
-    content: '\1f817';
-    font-size: 50px;
+    display: inline-block;
+    content: '\25bc';
+    font-size: 40px;
+    color: inherit;
 }
 #spin{
     position: absolute;

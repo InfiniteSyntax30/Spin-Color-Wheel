@@ -9,9 +9,9 @@ let currentRotation = 0;
 let usedColors = new Set();
 
 const colors = [
-	{ name: "Red", min: 0, max: 72 },      //
-    { name: "Green", min: 72, max: 144 },   // 
-    { name: "Purple", min: 144, max: 216 }, // 
+	{ name: "White", min: 0, max: 72 },      //
+    { name: "Purple", min: 72, max: 144 },   // 
+    { name: "Cream", min: 144, max: 216 }, // 
     { name: "Orange", min: 216, max: 288 },    // 
     { name: "Blue", min: 288, max: 360 }  // 
 ];
